@@ -78,7 +78,7 @@ render() {
 }
 
 
-SignupForm.PropTypes = {
+SignupForm.propTypes = {
 	submit: PropTypes.func.isRequired
 };
 

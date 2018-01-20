@@ -22,7 +22,7 @@ const App = ({ location }) => (
 	</div>
 );
 
-App.PropTypes = {
+App.propTypes = {
 	location: PropTypes.shape({
 		pathname: PropTypes.string.isRequired
 	}).isRequired
